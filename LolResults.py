@@ -1,5 +1,5 @@
 path = ''
-def dothisshit():
+def sortfile():
     global path
     try:
         f = open(path)
@@ -17,7 +17,7 @@ def main():
     global path
     path = input('Path of File: ')
     print('Trying To Open File: {}'.format(path))
-    dothisshit()
+    sortfile()
 print('\033[33mLeague of legends results Sorter for LolSamurai config')
 print('Made by Raid7\033[0m')
 main()
